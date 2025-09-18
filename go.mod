@@ -1,4 +1,4 @@
-module github.com/oiweiwei/go-msrpc
+module github.com/FalconOpsLLC/go-msrpc
 
 go 1.24.1
 
