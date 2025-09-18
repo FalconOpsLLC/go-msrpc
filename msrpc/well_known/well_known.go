@@ -5,7 +5,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 )
 
 // The WellKnownMapper represents the static endpoint mapper.

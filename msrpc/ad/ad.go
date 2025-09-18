@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 type Converter interface {

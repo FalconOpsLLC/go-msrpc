@@ -6,14 +6,14 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	comt "github.com/oiweiwei/go-msrpc/msrpc/dcom/comt"
-	iunknown "github.com/oiweiwei/go-msrpc/msrpc/dcom/iunknown/v0"
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	comt "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/comt"
+	iunknown "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iunknown/v0"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (

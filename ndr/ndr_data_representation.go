@@ -3,7 +3,7 @@ package ndr
 import (
 	"encoding/binary"
 
-	"github.com/oiweiwei/go-msrpc/ndr/math"
+	"github.com/FalconOpsLLC/go-msrpc/ndr/math"
 )
 
 // The NDR data representation.

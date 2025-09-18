@@ -13,8 +13,8 @@ import (
 
 	"encoding/csv"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 var (
@@ -106,7 +106,7 @@ func main() {
 	p("package", pkg)
 	p()
 	p("import", "(")
-	p(fmt.Sprintf("%q", "github.com/oiweiwei/go-msrpc/midl/uuid"))
+	p(fmt.Sprintf("%q", "github.com/FalconOpsLLC/go-msrpc/midl/uuid"))
 	p(")")
 	p()
 	p("var", "(")

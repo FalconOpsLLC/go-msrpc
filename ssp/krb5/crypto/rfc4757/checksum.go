@@ -1,6 +1,6 @@
 package rfc4757
 
-import "github.com/oiweiwei/go-msrpc/ssp/crypto"
+import "github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
 
 const (
 	KeySaltWrap = int32(13)

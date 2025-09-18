@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/binary"
 
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm/internal"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm/internal"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 // AttrValues represents the map of attribute-value pairs.

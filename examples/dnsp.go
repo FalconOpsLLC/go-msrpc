@@ -10,19 +10,19 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dnsp"
-	"github.com/oiweiwei/go-msrpc/msrpc/dnsp/dnsserver/v5"
-	"github.com/oiweiwei/go-msrpc/msrpc/dnsp/record"
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp/dnsserver/v5"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp/record"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 var (

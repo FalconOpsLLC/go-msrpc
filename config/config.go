@@ -15,18 +15,18 @@ import (
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
 	zerolog "github.com/rs/zerolog"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/smb2"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/smb2"
 
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
-	"github.com/oiweiwei/go-msrpc/ssp/krb5"
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/krb5"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/well_known"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/well_known"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
 )
 
 type StringSlice []string

@@ -7,9 +7,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // SecurityTrailerSize is the size of the security trailer.

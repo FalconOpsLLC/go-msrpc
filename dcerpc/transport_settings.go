@@ -8,7 +8,7 @@ import (
 	"github.com/oiweiwei/go-smb2.fork"
 	"github.com/rs/zerolog"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // The Endpoint Mapper interface maps the given syntax identifier
@@ -121,13 +121,13 @@ func WithSMBDialer(dialer *smb2.Dialer) ConnectOption {
 //
 // There are two interface implementation, first is EPM service:
 //
-//	import "github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
+//	import "github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
 //
 //	conn, err := dcerpc.Dial(ctx, "contoso.net", epm.EndpointMapper(ctx, "contoso.net", dcerpc.WithSign()))
 //
 // Second is well-known endpoints:
 //
-//	import "github.com/oiweiwei/go-msrpc/msrpc/well_known"
+//	import "github.com/FalconOpsLLC/go-msrpc/msrpc/well_known"
 //
 //	conn, err := dcerpc.Dial(ctx, "contoso.net", well_known.EndpointMapper())
 func WithEndpointMapper(m EndpointMapper) ConnectOption {

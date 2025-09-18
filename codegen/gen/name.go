@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/codegen/go_names"
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/codegen/go_names"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 var (

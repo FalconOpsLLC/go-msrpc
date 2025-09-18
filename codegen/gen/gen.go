@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/codegen/doc"
-	"github.com/oiweiwei/go-msrpc/midl"
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/codegen/doc"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 func FieldName(i int, n string) string {

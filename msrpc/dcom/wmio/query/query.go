@@ -4,15 +4,15 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/oaut"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemclassobject/v0"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/oaut"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemclassobject/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmio"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmio"
 )
 
 type builder struct {

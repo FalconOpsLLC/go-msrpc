@@ -3,7 +3,7 @@ package dnsp
 import (
 	"github.com/miekg/dns"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dnsp/record"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp/record"
 )
 
 // NewRecordFromString creates a new Record from a string data.

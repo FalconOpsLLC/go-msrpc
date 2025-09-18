@@ -1,6 +1,6 @@
 package dcom
 
-import "github.com/oiweiwei/go-msrpc/ndr"
+import "github.com/FalconOpsLLC/go-msrpc/ndr"
 
 var ObjectReferenceCustomSignature = "MEOW"
 

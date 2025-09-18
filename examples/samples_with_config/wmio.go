@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmio"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmio"
 )
 
 var (

@@ -3,7 +3,7 @@ package binxml
 import (
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 // An event query or subscription returns multiple events in the result set.

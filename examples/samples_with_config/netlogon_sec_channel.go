@@ -20,23 +20,23 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	config "github.com/oiweiwei/go-msrpc/config"
-	config_flag "github.com/oiweiwei/go-msrpc/config/flag"
+	config "github.com/FalconOpsLLC/go-msrpc/config"
+	config_flag "github.com/FalconOpsLLC/go-msrpc/config/flag"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/msrpc/nrpc/logon/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/nrpc/logon/v1"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/hresult"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/ntstatus"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/hresult"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/ntstatus"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 
-	. "github.com/oiweiwei/go-msrpc/examples/common"
+	. "github.com/FalconOpsLLC/go-msrpc/examples/common"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 type None struct{}

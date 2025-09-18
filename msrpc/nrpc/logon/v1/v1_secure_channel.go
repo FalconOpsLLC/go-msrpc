@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
-	"github.com/oiweiwei/go-msrpc/ssp/netlogon"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/netlogon"
 )
 
 type LogonSecureChannelClient interface {

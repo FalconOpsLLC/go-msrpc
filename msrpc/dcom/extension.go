@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 const ErrorStringSignature uint32 = 0xFFFFFFFF

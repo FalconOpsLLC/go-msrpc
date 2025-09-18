@@ -4,7 +4,7 @@ import (
 	"crypto/rc4"
 	"errors"
 
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
 )
 
 func DeriveEncryptionKey(key []byte, seqNum []byte) ([]byte, error) {

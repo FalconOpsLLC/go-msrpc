@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
 )
 
 // The NTLM Authentifier.

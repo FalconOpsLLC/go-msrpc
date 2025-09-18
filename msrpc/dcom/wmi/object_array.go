@@ -3,9 +3,9 @@ package wmi
 import (
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmio"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmio"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 func UnmarshalObjectArrayWithClass(b []byte, cls wmio.Class) (*ObjectArray, error) {

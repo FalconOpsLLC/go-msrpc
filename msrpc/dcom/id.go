@@ -1,7 +1,7 @@
 package dcom
 
 import (
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 func (o *IPID) MarshalJSON() ([]byte, error) { return o.GUID().MarshalJSON() }

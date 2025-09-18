@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc/errors"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
 )
 
 type Error struct {

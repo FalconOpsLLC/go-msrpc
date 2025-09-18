@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/ssp/netlogon/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/netlogon/crypto"
 )
 
 type Authentifier struct {

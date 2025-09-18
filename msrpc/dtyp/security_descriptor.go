@@ -3,7 +3,7 @@ package dtyp
 import (
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 func (o *SecurityDescriptor) Parse(b []byte) error {

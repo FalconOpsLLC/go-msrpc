@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	iunknown "github.com/oiweiwei/go-msrpc/msrpc/dcom/iunknown/v0"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	iunknown "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iunknown/v0"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (
@@ -30,6 +30,12 @@ type ClassObjectServer interface {
 
 	// IUnknown base class.
 	iunknown.UnknownServer
+
+	// SpawnDerivedClass operation.
+	SpawnDerivedClass(context.Context, *SpawnDerivedClassRequest) (*SpawnDerivedClassResponse, error)
+
+	// Put operation.
+	Put(context.Context, *PutRequest) (*PutResponse, error)
 }
 
 func RegisterClassObjectServer(conn dcerpc.Conn, o ClassObjectServer, opts ...dcerpc.Option) {
@@ -43,7 +49,29 @@ func NewClassObjectServerHandle(o ClassObjectServer) dcerpc.ServerHandle {
 }
 
 func ClassObjectServerHandle(ctx context.Context, o ClassObjectServer, opNum int, r ndr.Reader) (dcerpc.Operation, error) {
+	if opNum < 3 {
+		// IUnknown base method.
+		return iunknown.UnknownServerHandle(ctx, o, opNum, r)
+	}
 	switch opNum {
+	case 3: // SpawnDerivedClass
+		op := &xxx_SpawnDerivedClassOperation{}
+		if err := op.UnmarshalNDRRequest(ctx, r); err != nil {
+			return nil, err
+		}
+		req := &SpawnDerivedClassRequest{}
+		req.xxx_FromOp(ctx, op)
+		resp, err := o.SpawnDerivedClass(ctx, req)
+		return resp.xxx_ToOp(ctx, op), err
+	case 4: // Put
+		op := &xxx_PutOperation{}
+		if err := op.UnmarshalNDRRequest(ctx, r); err != nil {
+			return nil, err
+		}
+		req := &PutRequest{}
+		req.xxx_FromOp(ctx, op)
+		resp, err := o.Put(ctx, req)
+		return resp.xxx_ToOp(ctx, op), err
 	}
 	return nil, nil
 }
@@ -51,6 +79,13 @@ func ClassObjectServerHandle(ctx context.Context, o ClassObjectServer, opNum int
 // Unimplemented IWbemClassObject
 type UnimplementedClassObjectServer struct {
 	iunknown.UnimplementedUnknownServer
+}
+
+func (UnimplementedClassObjectServer) SpawnDerivedClass(context.Context, *SpawnDerivedClassRequest) (*SpawnDerivedClassResponse, error) {
+	return nil, dcerpc.ErrNotImplemented
+}
+func (UnimplementedClassObjectServer) Put(context.Context, *PutRequest) (*PutResponse, error) {
+	return nil, dcerpc.ErrNotImplemented
 }
 
 var _ ClassObjectServer = (*UnimplementedClassObjectServer)(nil)

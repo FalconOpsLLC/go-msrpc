@@ -18,19 +18,19 @@ import (
 
 	"github.com/go-xmlfmt/xmlfmt"
 
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
-	"github.com/oiweiwei/go-msrpc/msrpc/even6/ieventservice/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/even6/ieventservice/v1"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/binxml"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/binxml"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/hresult"
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/hresult"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 func init() {

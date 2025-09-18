@@ -12,9 +12,9 @@ import (
 
 	"github.com/miekg/dns"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	ms_dns "github.com/oiweiwei/go-msrpc/msrpc/dnsp/record/dns"
+	ms_dns "github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp/record/dns"
 )
 
 func (o *NodeName) MarshalJSON() ([]byte, error) {

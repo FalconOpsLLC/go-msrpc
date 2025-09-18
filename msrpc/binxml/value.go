@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 type Value struct {

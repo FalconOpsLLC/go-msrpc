@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 // The protocol sequence.

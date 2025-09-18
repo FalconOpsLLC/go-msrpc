@@ -1,8 +1,8 @@
 package dcom
 
 import (
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 // Superclass option is an alias of the dcerpc.WithNoBind option.

@@ -12,15 +12,15 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	config "github.com/oiweiwei/go-msrpc/config"
-	config_flag "github.com/oiweiwei/go-msrpc/config/flag"
+	config "github.com/FalconOpsLLC/go-msrpc/config"
+	config_flag "github.com/FalconOpsLLC/go-msrpc/config/flag"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/rrp/winreg/v1"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/rrp/winreg/v1"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 var (

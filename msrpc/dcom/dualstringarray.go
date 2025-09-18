@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcetypes"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcetypes"
 )
 
 type StringBinding struct {

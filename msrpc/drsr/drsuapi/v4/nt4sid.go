@@ -3,7 +3,7 @@ package drsuapi
 import (
 	"encoding/json"
 
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 // IsZero returns true if the NT4SID is nil or all zeros.

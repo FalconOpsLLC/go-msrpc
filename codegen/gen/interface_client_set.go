@@ -4,7 +4,7 @@ import (
 	"context"
 	"path/filepath"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 func (p *Generator) GenClientSet(ctx context.Context, f *midl.File) {

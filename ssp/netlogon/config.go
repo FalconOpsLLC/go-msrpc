@@ -1,6 +1,6 @@
 package netlogon
 
-import "github.com/oiweiwei/go-msrpc/ssp/credential"
+import "github.com/FalconOpsLLC/go-msrpc/ssp/credential"
 
 // The generic credential.
 type Credential = credential.Credential

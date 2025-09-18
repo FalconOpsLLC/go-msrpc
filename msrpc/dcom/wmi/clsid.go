@@ -1,6 +1,6 @@
 package wmi
 
-import "github.com/oiweiwei/go-msrpc/msrpc/dcom"
+import "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
 
 var (
 	// 4590F812-1D3A-11D0-891F-00AA004B2E24

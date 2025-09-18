@@ -25,27 +25,27 @@ import (
 	"net"
 	"os"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 	"github.com/rs/zerolog"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/iactivation/v0"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/iobjectexporter/v0"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmio/query"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iactivation/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iobjectexporter/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmio/query"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmio"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmio"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemlevel1login/v0"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemlevel1login/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
 
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/hresult"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/wmi"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/hresult"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/wmi"
 )
 
 var j = func(data any) string { b, _ := json.MarshalIndent(data, "", "  "); return string(b) }

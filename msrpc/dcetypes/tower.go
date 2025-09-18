@@ -9,8 +9,8 @@ import (
 	"net"
 	"strconv"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 var (

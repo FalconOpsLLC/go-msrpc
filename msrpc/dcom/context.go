@@ -3,7 +3,7 @@ package dcom
 import (
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // InterfacePointer function encodes the context object into an InterfacePointer.

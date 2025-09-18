@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/pac"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/pac"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"flag"
 	"os"
 
-	"github.com/oiweiwei/go-msrpc/config"
+	"github.com/FalconOpsLLC/go-msrpc/config"
 )
 
 func BindFlags(c *config.Config, flagSet *flag.FlagSet) {

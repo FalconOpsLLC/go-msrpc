@@ -15,10 +15,10 @@ import (
 	"github.com/oiweiwei/gokrb5.fork/v9/spnego"
 	"github.com/oiweiwei/gokrb5.fork/v9/types"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/ssp/krb5/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/krb5/crypto"
 )
 
 type Authentifier struct {

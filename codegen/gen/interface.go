@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 var (

@@ -6,14 +6,14 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	fsrm "github.com/oiweiwei/go-msrpc/msrpc/dcom/fsrm"
-	ifsrmpropertydefinition "github.com/oiweiwei/go-msrpc/msrpc/dcom/fsrm/ifsrmpropertydefinition/v0"
-	oaut "github.com/oiweiwei/go-msrpc/msrpc/dcom/oaut"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	fsrm "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/fsrm"
+	ifsrmpropertydefinition "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/fsrm/ifsrmpropertydefinition/v0"
+	oaut "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/oaut"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (

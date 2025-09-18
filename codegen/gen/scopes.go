@@ -3,7 +3,7 @@ package gen
 import (
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 // Scopes structure is a scope list iterator. Within single scope

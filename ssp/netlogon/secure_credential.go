@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
 )
 
 type SecureCredential struct {

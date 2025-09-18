@@ -3,7 +3,7 @@ package filetime
 import (
 	"time"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 // Never returns a Filetime that represents the maximum time.

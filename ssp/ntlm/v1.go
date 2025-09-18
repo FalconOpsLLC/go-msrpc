@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm/internal"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm/internal"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 // The LMv1Respons structure defines the NTLM v1 authentication

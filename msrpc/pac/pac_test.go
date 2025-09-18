@@ -9,11 +9,11 @@ import (
 	"github.com/oiweiwei/gokrb5.fork/v9/test/testdata"
 	"github.com/oiweiwei/gokrb5.fork/v9/types"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/adts/claims/claims/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/adts/claims/claims/v1"
 
-	pac_testdata "github.com/oiweiwei/go-msrpc/msrpc/pac/testdata"
+	pac_testdata "github.com/FalconOpsLLC/go-msrpc/msrpc/pac/testdata"
 )
 
 var j = func(v any) string {

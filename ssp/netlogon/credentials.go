@@ -5,9 +5,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 func IsValidCredential(cred any) bool {

@@ -12,25 +12,25 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcetypes"
-	"github.com/oiweiwei/go-msrpc/msrpc/well_known"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcetypes"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/well_known"
 
-	config "github.com/oiweiwei/go-msrpc/config"
-	config_flag "github.com/oiweiwei/go-msrpc/config/flag"
+	config "github.com/FalconOpsLLC/go-msrpc/config"
+	config_flag "github.com/FalconOpsLLC/go-msrpc/config/flag"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dnsp/dnsserver/v5"
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
-	"github.com/oiweiwei/go-msrpc/msrpc/even/eventlog/v0"
-	"github.com/oiweiwei/go-msrpc/msrpc/even6/ieventservice/v1"
-	"github.com/oiweiwei/go-msrpc/msrpc/nrpc/logon/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dnsp/dnsserver/v5"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/even/eventlog/v0"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/even6/ieventservice/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/nrpc/logon/v1"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 var (

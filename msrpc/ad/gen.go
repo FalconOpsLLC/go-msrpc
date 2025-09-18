@@ -19,7 +19,7 @@ import (
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 var (
@@ -151,7 +151,7 @@ func main() {
 	p.P("import", "(")
 	p.P(`"encoding/asn1"`)
 	p.P()
-	p.P(`"github.com/oiweiwei/go-msrpc/midl/uuid"`)
+	p.P(`"github.com/FalconOpsLLC/go-msrpc/midl/uuid"`)
 	p.P(")")
 	p.P()
 

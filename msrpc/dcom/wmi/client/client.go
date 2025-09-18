@@ -6,27 +6,28 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	dcom_client "github.com/oiweiwei/go-msrpc/msrpc/dcom/client"
-	iremunknown "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown/v0"
-	iremunknown2 "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown2/v0"
-	ienumwbemclassobject "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/ienumwbemclassobject/v0"
-	iwbembackuprestore "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbembackuprestore/v0"
-	iwbembackuprestoreex "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbembackuprestoreex/v0"
-	iwbemcallresult "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemcallresult/v0"
-	iwbemfetchsmartenum "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemfetchsmartenum/v0"
-	iwbemlevel1login "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemlevel1login/v0"
-	iwbemloginclientid "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemloginclientid/v0"
-	iwbemloginhelper "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemloginhelper/v0"
-	iwbemobjectsink "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemobjectsink/v0"
-	iwbemrefreshingservices "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemrefreshingservices/v0"
-	iwbemremoterefresher "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemremoterefresher/v0"
-	iwbemservices "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
-	iwbemwcosmartenum "github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi/iwbemwcosmartenum/v0"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	dcom_client "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/client"
+	iremunknown "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown/v0"
+	iremunknown2 "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown2/v0"
+	ienumwbemclassobject "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/ienumwbemclassobject/v0"
+	iwbembackuprestore "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbembackuprestore/v0"
+	iwbembackuprestoreex "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbembackuprestoreex/v0"
+	iwbemcallresult "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemcallresult/v0"
+	iwbemclassobject "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemclassobject/v0"
+	iwbemfetchsmartenum "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemfetchsmartenum/v0"
+	iwbemlevel1login "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemlevel1login/v0"
+	iwbemloginclientid "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemloginclientid/v0"
+	iwbemloginhelper "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemloginhelper/v0"
+	iwbemobjectsink "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemobjectsink/v0"
+	iwbemrefreshingservices "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemrefreshingservices/v0"
+	iwbemremoterefresher "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemremoterefresher/v0"
+	iwbemservices "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemservices/v0"
+	iwbemwcosmartenum "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi/iwbemwcosmartenum/v0"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (
@@ -42,6 +43,7 @@ var (
 	_ = dcom.GoPackage
 	_ = iremunknown.GoPackage
 	_ = iremunknown2.GoPackage
+	_ = iwbemclassobject.GoPackage
 	_ = iwbemobjectsink.GoPackage
 	_ = ienumwbemclassobject.GoPackage
 	_ = iwbemcallresult.GoPackage
@@ -70,6 +72,7 @@ type Client interface {
 	RemoteUnknown2() iremunknown2.RemoteUnknown2Client
 
 	// Package specific interfaces
+	ClassObject() iwbemclassobject.ClassObjectClient
 	ObjectSink() iwbemobjectsink.ObjectSinkClient
 	EnumClassObject() ienumwbemclassobject.EnumClassObjectClient
 	CallResult() iwbemcallresult.CallResultClient
@@ -97,6 +100,7 @@ type xxx_DefaultClient struct {
 
 	dcomClient dcom_client.Client
 
+	classObject        iwbemclassobject.ClassObjectClient
 	objectSink         iwbemobjectsink.ObjectSinkClient
 	enumClassObject    ienumwbemclassobject.EnumClassObjectClient
 	callResult         iwbemcallresult.CallResultClient
@@ -118,6 +122,10 @@ func (o *xxx_DefaultClient) RemoteUnknown() iremunknown.RemoteUnknownClient {
 
 func (o *xxx_DefaultClient) RemoteUnknown2() iremunknown2.RemoteUnknown2Client {
 	return o.dcomClient.RemoteUnknown2()
+}
+
+func (o *xxx_DefaultClient) ClassObject() iwbemclassobject.ClassObjectClient {
+	return o.classObject
 }
 
 func (o *xxx_DefaultClient) ObjectSink() iwbemobjectsink.ObjectSinkClient {
@@ -175,6 +183,7 @@ func (o *xxx_DefaultClient) LoginHelper() iwbemloginhelper.LoginHelperClient {
 func NewClient(ctx context.Context, cc dcerpc.Conn, opts ...dcerpc.Option) (Client, error) {
 
 	opts = append(opts,
+		dcerpc.WithAbstractSyntax(iwbemclassobject.ClassObjectSyntaxV0_0),
 		dcerpc.WithAbstractSyntax(iwbemobjectsink.ObjectSinkSyntaxV0_0),
 		dcerpc.WithAbstractSyntax(ienumwbemclassobject.EnumClassObjectSyntaxV0_0),
 		dcerpc.WithAbstractSyntax(iwbemcallresult.CallResultSyntaxV0_0),
@@ -209,6 +218,15 @@ func NewClient(ctx context.Context, cc dcerpc.Conn, opts ...dcerpc.Option) (Clie
 	if !ok {
 		return nil, fmt.Errorf("sub-conn is not supported")
 	}
+
+	classObjectSubConn, err := sub.SubConn(ctx, iwbemclassobject.ClassObjectSyntaxV0_0)
+	if err != nil {
+		// XXX: use main subconnection as a last resort
+		// it was noticed that we can reuse the main connection for dcom interfaces
+		classObjectSubConn = sub
+	}
+
+	o.classObject, err = iwbemclassobject.NewClassObjectClient(ctx, classObjectSubConn, append(opts, dcerpc.WithNoBind(classObjectSubConn))...)
 
 	objectSinkSubConn, err := sub.SubConn(ctx, iwbemobjectsink.ObjectSinkSyntaxV0_0)
 	if err != nil {
@@ -343,6 +361,7 @@ func (o *xxx_DefaultClient) IPID(ctx context.Context, ipid *dcom.IPID) Client {
 	}
 	return &xxx_DefaultClient{
 		dcomClient:         o.dcomClient.IPID(ctx, ipid),
+		classObject:        o.classObject.IPID(ctx, ipid),
 		objectSink:         o.objectSink.IPID(ctx, ipid),
 		enumClassObject:    o.enumClassObject.IPID(ctx, ipid),
 		callResult:         o.callResult.IPID(ctx, ipid),

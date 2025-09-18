@@ -6,9 +6,9 @@ import (
 	"crypto/rc4"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 // DecryptData decrypts the data using the session key from the context.

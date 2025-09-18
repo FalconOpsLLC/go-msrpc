@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
 )
 
 func TestNTOWF(t *testing.T) {

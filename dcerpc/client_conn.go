@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 	"github.com/rs/zerolog"
 )
 

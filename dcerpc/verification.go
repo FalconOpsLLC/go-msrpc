@@ -5,7 +5,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var VerificationTrailerSignature = [...]byte{0x8A, 0xE3, 0x13, 0x71, 0x02, 0xF4, 0x36, 0x71}

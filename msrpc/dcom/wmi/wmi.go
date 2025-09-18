@@ -30,12 +30,12 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (
@@ -651,6 +651,144 @@ func (o Status) String() string {
 		return "StatusRegistrationTooBroad"
 	case StatusRegistrationTooPrecise:
 		return "StatusRegistrationTooPrecise"
+	}
+	return "Invalid"
+}
+
+// CimtypeEnumeration type represents CIMTYPE_ENUMERATION RPC enumeration.
+type CimtypeEnumeration uint16
+
+var (
+	CimtypeEnumerationIllegal   CimtypeEnumeration = 4095
+	CimtypeEnumerationEmpty     CimtypeEnumeration = 0
+	CimtypeEnumerationSint8     CimtypeEnumeration = 16
+	CimtypeEnumerationUint8     CimtypeEnumeration = 17
+	CimtypeEnumerationSint16    CimtypeEnumeration = 2
+	CimtypeEnumerationUint16    CimtypeEnumeration = 18
+	CimtypeEnumerationSint32    CimtypeEnumeration = 3
+	CimtypeEnumerationUint32    CimtypeEnumeration = 19
+	CimtypeEnumerationSint64    CimtypeEnumeration = 20
+	CimtypeEnumerationUint64    CimtypeEnumeration = 21
+	CimtypeEnumerationReal32    CimtypeEnumeration = 4
+	CimtypeEnumerationReal64    CimtypeEnumeration = 5
+	CimtypeEnumerationBoolean   CimtypeEnumeration = 11
+	CimtypeEnumerationString    CimtypeEnumeration = 8
+	CimtypeEnumerationDatetime  CimtypeEnumeration = 101
+	CimtypeEnumerationReference CimtypeEnumeration = 102
+	CimtypeEnumerationChar16    CimtypeEnumeration = 103
+	CimtypeEnumerationObject    CimtypeEnumeration = 13
+	CimtypeEnumerationFlagArray CimtypeEnumeration = 8192
+)
+
+func (o CimtypeEnumeration) String() string {
+	switch o {
+	case CimtypeEnumerationIllegal:
+		return "CimtypeEnumerationIllegal"
+	case CimtypeEnumerationEmpty:
+		return "CimtypeEnumerationEmpty"
+	case CimtypeEnumerationSint8:
+		return "CimtypeEnumerationSint8"
+	case CimtypeEnumerationUint8:
+		return "CimtypeEnumerationUint8"
+	case CimtypeEnumerationSint16:
+		return "CimtypeEnumerationSint16"
+	case CimtypeEnumerationUint16:
+		return "CimtypeEnumerationUint16"
+	case CimtypeEnumerationSint32:
+		return "CimtypeEnumerationSint32"
+	case CimtypeEnumerationUint32:
+		return "CimtypeEnumerationUint32"
+	case CimtypeEnumerationSint64:
+		return "CimtypeEnumerationSint64"
+	case CimtypeEnumerationUint64:
+		return "CimtypeEnumerationUint64"
+	case CimtypeEnumerationReal32:
+		return "CimtypeEnumerationReal32"
+	case CimtypeEnumerationReal64:
+		return "CimtypeEnumerationReal64"
+	case CimtypeEnumerationBoolean:
+		return "CimtypeEnumerationBoolean"
+	case CimtypeEnumerationString:
+		return "CimtypeEnumerationString"
+	case CimtypeEnumerationDatetime:
+		return "CimtypeEnumerationDatetime"
+	case CimtypeEnumerationReference:
+		return "CimtypeEnumerationReference"
+	case CimtypeEnumerationChar16:
+		return "CimtypeEnumerationChar16"
+	case CimtypeEnumerationObject:
+		return "CimtypeEnumerationObject"
+	case CimtypeEnumerationFlagArray:
+		return "CimtypeEnumerationFlagArray"
+	}
+	return "Invalid"
+}
+
+// Cimtype type represents CIMTYPE RPC enumeration.
+type Cimtype uint16
+
+var (
+	CimtypeIllegal   Cimtype = 4095
+	CimtypeEmpty     Cimtype = 0
+	CimtypeSint8     Cimtype = 16
+	CimtypeUint8     Cimtype = 17
+	CimtypeSint16    Cimtype = 2
+	CimtypeUint16    Cimtype = 18
+	CimtypeSint32    Cimtype = 3
+	CimtypeUint32    Cimtype = 19
+	CimtypeSint64    Cimtype = 20
+	CimtypeUint64    Cimtype = 21
+	CimtypeReal32    Cimtype = 4
+	CimtypeReal64    Cimtype = 5
+	CimtypeBoolean   Cimtype = 11
+	CimtypeString    Cimtype = 8
+	CimtypeDatetime  Cimtype = 101
+	CimtypeReference Cimtype = 102
+	CimtypeChar16    Cimtype = 103
+	CimtypeObject    Cimtype = 13
+	CimtypeFlagArray Cimtype = 8192
+)
+
+func (o Cimtype) String() string {
+	switch o {
+	case CimtypeIllegal:
+		return "CimtypeIllegal"
+	case CimtypeEmpty:
+		return "CimtypeEmpty"
+	case CimtypeSint8:
+		return "CimtypeSint8"
+	case CimtypeUint8:
+		return "CimtypeUint8"
+	case CimtypeSint16:
+		return "CimtypeSint16"
+	case CimtypeUint16:
+		return "CimtypeUint16"
+	case CimtypeSint32:
+		return "CimtypeSint32"
+	case CimtypeUint32:
+		return "CimtypeUint32"
+	case CimtypeSint64:
+		return "CimtypeSint64"
+	case CimtypeUint64:
+		return "CimtypeUint64"
+	case CimtypeReal32:
+		return "CimtypeReal32"
+	case CimtypeReal64:
+		return "CimtypeReal64"
+	case CimtypeBoolean:
+		return "CimtypeBoolean"
+	case CimtypeString:
+		return "CimtypeString"
+	case CimtypeDatetime:
+		return "CimtypeDatetime"
+	case CimtypeReference:
+		return "CimtypeReference"
+	case CimtypeChar16:
+		return "CimtypeChar16"
+	case CimtypeObject:
+		return "CimtypeObject"
+	case CimtypeFlagArray:
+		return "CimtypeFlagArray"
 	}
 	return "Invalid"
 }

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 type fileCtx struct{}

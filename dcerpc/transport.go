@@ -9,8 +9,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/oiweiwei/go-msrpc/smb2"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/smb2"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 var (

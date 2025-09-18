@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 var (

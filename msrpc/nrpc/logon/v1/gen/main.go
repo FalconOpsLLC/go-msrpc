@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"text/template"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/nrpc/logon/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/nrpc/logon/v1"
 )
 
 var o string
@@ -77,7 +77,7 @@ import (
 	"fmt"
 	"context"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
 )
 {{ range $m := .Methods }}
 

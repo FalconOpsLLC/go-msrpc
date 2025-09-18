@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	claims "github.com/oiweiwei/go-msrpc/msrpc/adts/claims/claims/v1"
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
+	claims "github.com/FalconOpsLLC/go-msrpc/msrpc/adts/claims/claims/v1"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
 )
 
 type PAC struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 func (o *UnicodeString) BeforePreparePayload(ctx context.Context) error {

@@ -29,9 +29,9 @@
 //	import (
 //		"fmt"
 //
-//		"github.com/oiweiwei/go-msrpc/dcerpc"
+//		"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 //
-//		"github.com/oiweiwei/go-msrpc/epm/epm/v3"
+//		"github.com/FalconOpsLLC/go-msrpc/epm/epm/v3"
 //	)
 //
 //	func main() {
@@ -87,9 +87,9 @@
 // SSP packages and credentials. This can be done in two ways. First, provision via global settings.
 //
 //	import (
-//		"github.com/oiweiwei/go-msrpc/ssp"
-//		"github.com/oiweiwei/go-msrpc/ssp/credential"
-//		"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+//		"github.com/FalconOpsLLC/go-msrpc/ssp"
+//		"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+//		"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 //	)
 //
 //	func init() {
@@ -293,7 +293,7 @@
 //
 // You can use the well_known endpoint mapper like following:
 //
-//	import "github.com/oiweiwei/go-msrpc/well_known"
+//	import "github.com/FalconOpsLLC/go-msrpc/well_known"
 //
 //	// most of the well-known endpoints are SMB endpoints.
 //	// (note that SMB will perform significantly slower).
@@ -302,7 +302,7 @@
 // But most of the endpoints are dynamic, like DNSServer, DHCPServer, Eventlog TCP/IP endpoints.
 // To locate them Endpoint mapper must be used:
 //
-//	import "github.com/oiweiwei/go-msrpc/epm/epm/v3"
+//	import "github.com/FalconOpsLLC/go-msrpc/epm/epm/v3"
 //
 //	// specify EPMv3 endpoint mapper, it will use well_known.EndpointMapper()
 //	// internally to determine it's own address, by you can also force
@@ -312,7 +312,7 @@
 //
 // # Error Handling
 //
-// The "github.com/oiweiwei/go-msrpc/msrpc/erref" package contains the error handlers for
+// The "github.com/FalconOpsLLC/go-msrpc/msrpc/erref" package contains the error handlers for
 // the list of known errors. If you will import any of the packages inside it, any error
 // in `Return` will be automatically matched and converted to human-readable strings.
 //
@@ -321,7 +321,7 @@
 //	// key enumerate: query_info: dcerpc: invoke: /winreg/v1/BaseRegQueryInfoKey: response: decode packet: win32: RPC_X_BAD_STUB_DATA (0x000006f7): The stub received bad data.
 //	// go run examples/rrp.go # without error
 //	// key enumerate: query_info: dcerpc: invoke: /winreg/v1/BaseRegQueryInfoKey: response: decode packet: error: code: 0x000006f7
-//	import _ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+//	import _ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 //
 // # SMB Performance
 //

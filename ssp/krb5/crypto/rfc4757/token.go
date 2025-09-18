@@ -3,7 +3,7 @@ package rfc4757
 import (
 	"encoding/binary"
 
-	"github.com/oiweiwei/go-msrpc/ssp/krb5/crypto/rfc1964"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/krb5/crypto/rfc1964"
 )
 
 const (

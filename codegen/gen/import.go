@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 func (p *Generator) GenPackageImportGuard(ctx context.Context) {
@@ -74,22 +74,22 @@ var (
 		{
 			Name:  "ndr",
 			Guard: "ndr.ZeroString",
-			Path:  "github.com/oiweiwei/go-msrpc/ndr",
+			Path:  "github.com/FalconOpsLLC/go-msrpc/ndr",
 		},
 		{
 			Name:  "uuid",
 			Guard: "(*uuid.UUID)(nil)",
-			Path:  "github.com/oiweiwei/go-msrpc/midl/uuid",
+			Path:  "github.com/FalconOpsLLC/go-msrpc/midl/uuid",
 		},
 		{
 			Name:  "dcerpc",
 			Guard: "(*dcerpc.SyntaxID)(nil)",
-			Path:  "github.com/oiweiwei/go-msrpc/dcerpc",
+			Path:  "github.com/FalconOpsLLC/go-msrpc/dcerpc",
 		},
 		{
 			Name:  "errors",
 			Guard: "(*errors.Error)(nil)",
-			Path:  "github.com/oiweiwei/go-msrpc/dcerpc/errors",
+			Path:  "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors",
 		},
 	}
 )

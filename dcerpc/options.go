@@ -3,8 +3,8 @@ package dcerpc
 import (
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 	"github.com/rs/zerolog"
 )
 
@@ -88,7 +88,7 @@ func (SecurityContextOption) is_rpcOption() {}
 // Use this method to trigger the new security context establishment
 // for the client with mechanism provided.
 //
-//	import "github.com/oiweiwei/go-msrpc/ssp"
+//	import "github.com/FalconOpsLLC/go-msrpc/ssp"
 //
 //	cli, err := winreg.NewWinregClient(ctx, conn, dcerpc.WithSeal(), dcerpc.WithMechanism(ssp.NTLM))
 func WithMechanism(m gssapi.MechanismFactory, defaultConfig ...gssapi.MechanismConfig) SecurityContextOption {
@@ -107,7 +107,7 @@ func WithMechanism(m gssapi.MechanismFactory, defaultConfig ...gssapi.MechanismC
 // Use this method to trigger the new security context establishement
 // for the client with credentials provided.
 //
-//	import "github.com/oiweiwei/go-msrpc/ssp/credential"
+//	import "github.com/FalconOpsLLC/go-msrpc/ssp/credential"
 //
 //	creds := credential.NewFromPassword(os.Getenv("USERNAME"), os.Getenv("PASSWORD"))
 //

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 	"github.com/oiweiwei/gokrb5.fork/v9/crypto"
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/keyusage"
 	"github.com/oiweiwei/gokrb5.fork/v9/types"

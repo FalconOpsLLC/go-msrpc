@@ -3,7 +3,7 @@ package dcerpc
 import (
 	"sync/atomic"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // The Presentation represents the data presentation

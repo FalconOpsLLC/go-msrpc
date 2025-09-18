@@ -14,25 +14,25 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 
-	config "github.com/oiweiwei/go-msrpc/config"
-	config_flag "github.com/oiweiwei/go-msrpc/config/flag"
+	config "github.com/FalconOpsLLC/go-msrpc/config"
+	config_flag "github.com/FalconOpsLLC/go-msrpc/config/flag"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/ad"
-	"github.com/oiweiwei/go-msrpc/msrpc/drsr/drsuapi/v4"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/msrpc/samr/samr/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/ad"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/drsr/drsuapi/v4"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/samr/samr/v1"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/drsr"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/drsr"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 
-	. "github.com/oiweiwei/go-msrpc/examples/common"
+	. "github.com/FalconOpsLLC/go-msrpc/examples/common"
 )
 
 var (

@@ -6,17 +6,17 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	idatafactory "github.com/oiweiwei/go-msrpc/msrpc/dcom/adtg/idatafactory/v0"
-	idatafactory2 "github.com/oiweiwei/go-msrpc/msrpc/dcom/adtg/idatafactory2/v0"
-	idatafactory3 "github.com/oiweiwei/go-msrpc/msrpc/dcom/adtg/idatafactory3/v0"
-	dcom_client "github.com/oiweiwei/go-msrpc/msrpc/dcom/client"
-	iremunknown "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown/v0"
-	iremunknown2 "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown2/v0"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	idatafactory "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/adtg/idatafactory/v0"
+	idatafactory2 "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/adtg/idatafactory2/v0"
+	idatafactory3 "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/adtg/idatafactory3/v0"
+	dcom_client "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/client"
+	iremunknown "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown/v0"
+	iremunknown2 "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown2/v0"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (

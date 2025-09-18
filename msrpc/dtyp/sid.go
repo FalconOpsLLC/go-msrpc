@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 func (o *SID) MarshalJSON() ([]byte, error) {

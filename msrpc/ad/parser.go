@@ -4,10 +4,10 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/drsr/drsuapi/v4"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/drsr/drsuapi/v4"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 type StringUnicode struct{}

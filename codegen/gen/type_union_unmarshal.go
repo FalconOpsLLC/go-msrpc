@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 func (p *TypeGenerator) GenUnionUnmarshalNDR(ctx context.Context) {

@@ -7,8 +7,8 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 
-	"github.com/oiweiwei/go-msrpc/ssp/crypto"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 type AESSHA2 struct {

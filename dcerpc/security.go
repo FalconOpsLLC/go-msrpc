@@ -11,9 +11,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 var (

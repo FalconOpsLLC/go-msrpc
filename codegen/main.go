@@ -8,9 +8,9 @@ import (
 
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 
-	"github.com/oiweiwei/go-msrpc/codegen/gen"
+	"github.com/FalconOpsLLC/go-msrpc/codegen/gen"
 )
 
 var (
@@ -27,7 +27,7 @@ func init() {
 	flag.BoolVar(&frmt, "format", true, "use format")
 	flag.BoolVar(&trace, "trace", false, "use format")
 	flag.StringVar(&fn, "f", "", "filename")
-	flag.StringVar(&I, "I", "github.com/oiweiwei/go-msrpc/example", "import path")
+	flag.StringVar(&I, "I", "github.com/FalconOpsLLC/go-msrpc/example", "import path")
 	flag.StringVar(&dir, "dir", "msrpc/", "the generation dir")
 	flag.StringVar(&cache, "doc-cache", ".cache/doc/", "the cache directory for doc")
 	flag.BoolVar(&j, "j", false, "json output")

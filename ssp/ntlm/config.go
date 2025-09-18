@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
 )
 
 const (

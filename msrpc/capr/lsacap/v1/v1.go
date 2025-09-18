@@ -6,11 +6,11 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	capr "github.com/oiweiwei/go-msrpc/msrpc/capr"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	capr "github.com/FalconOpsLLC/go-msrpc/msrpc/capr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (

@@ -17,19 +17,19 @@ import (
 
 	"github.com/go-xmlfmt/xmlfmt"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	config "github.com/oiweiwei/go-msrpc/config"
-	config_flag "github.com/oiweiwei/go-msrpc/config/flag"
+	config "github.com/FalconOpsLLC/go-msrpc/config"
+	config_flag "github.com/FalconOpsLLC/go-msrpc/config/flag"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/binxml"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/binxml"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/even6/ieventservice/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/even6/ieventservice/v1"
 
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/hresult"
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/hresult"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 var (

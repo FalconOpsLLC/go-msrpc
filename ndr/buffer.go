@@ -6,7 +6,7 @@ import (
 	go_math "math"
 	"sync"
 
-	"github.com/oiweiwei/go-msrpc/ndr/math"
+	"github.com/FalconOpsLLC/go-msrpc/ndr/math"
 )
 
 // ChunkedBuffer interface is aimed to provide an interface

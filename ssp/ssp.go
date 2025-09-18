@@ -4,12 +4,12 @@ package ssp
 import (
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/ssp/krb5"
-	"github.com/oiweiwei/go-msrpc/ssp/netlogon"
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm"
-	"github.com/oiweiwei/go-msrpc/ssp/spnego"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/krb5"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/netlogon"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/spnego"
 )
 
 var (

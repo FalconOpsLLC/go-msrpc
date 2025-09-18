@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // Activation property CLSID for ActivationContextInfoData. {000001a5-0000-0000-c000-000000000046}

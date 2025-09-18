@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/codegen/doc"
-	"github.com/oiweiwei/go-msrpc/midl"
+	"github.com/FalconOpsLLC/go-msrpc/codegen/doc"
+	"github.com/FalconOpsLLC/go-msrpc/midl"
 )
 
 type TypeGenerator struct {

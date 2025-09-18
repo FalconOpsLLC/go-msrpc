@@ -3,7 +3,7 @@ package ntlm
 import (
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/ssp/ntlm/internal"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/ntlm/internal"
 )
 
 type Signature struct {

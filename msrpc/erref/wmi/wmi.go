@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	"github.com/oiweiwei/go-msrpc/msrpc/dcom/wmi"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/wmi"
 )
 
 func init() {

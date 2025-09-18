@@ -17,22 +17,22 @@ import (
 	"os"
 	"strings"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
-	"github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/ad"
-	"github.com/oiweiwei/go-msrpc/msrpc/drsr/drsuapi/v4"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
-	"github.com/oiweiwei/go-msrpc/msrpc/samr/samr/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/ad"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/drsr/drsuapi/v4"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/samr/samr/v1"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/drsr"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/win32"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/drsr"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/win32"
 )
 
 var j = func(data any) string { b, _ := json.MarshalIndent(data, "", "  "); return string(b) }

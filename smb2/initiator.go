@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/asn1"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 func SecurtiyContextInitiator(opts ...gssapi.ContextOption) *Initiator {

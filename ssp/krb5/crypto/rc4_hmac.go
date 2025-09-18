@@ -5,8 +5,8 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
-	"github.com/oiweiwei/go-msrpc/ssp/krb5/crypto/rfc4757"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/krb5/crypto/rfc4757"
 )
 
 type RC4HMAC struct {

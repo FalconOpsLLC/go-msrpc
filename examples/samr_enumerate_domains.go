@@ -13,17 +13,17 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
-	"github.com/oiweiwei/go-msrpc/ssp"
-	"github.com/oiweiwei/go-msrpc/ssp/credential"
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/ssp"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/credential"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"
-	"github.com/oiweiwei/go-msrpc/msrpc/samr/samr/v1"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/epm/epm/v3"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/samr/samr/v1"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/erref/ntstatus"
-	_ "github.com/oiweiwei/go-msrpc/msrpc/erref/ntstatus"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/erref/ntstatus"
+	_ "github.com/FalconOpsLLC/go-msrpc/msrpc/erref/ntstatus"
 )
 
 func init() {

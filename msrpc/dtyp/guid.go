@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
 )
 
 func (g *GUID) String() string {

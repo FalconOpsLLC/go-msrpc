@@ -4,7 +4,7 @@ import (
 	"crypto/md5"
 	"hash"
 
-	ssp_crypto "github.com/oiweiwei/go-msrpc/ssp/crypto"
+	ssp_crypto "github.com/FalconOpsLLC/go-msrpc/ssp/crypto"
 
 	"github.com/oiweiwei/gokrb5.fork/v9/crypto"
 	"github.com/oiweiwei/gokrb5.fork/v9/crypto/etype"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
 )
 
 func (o *xxx_SecureChannelClient) AccountDeltas(ctx context.Context, in *AccountDeltasRequest, opts ...dcerpc.CallOption) (*AccountDeltasResponse, error) {

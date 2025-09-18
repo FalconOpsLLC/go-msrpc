@@ -5,8 +5,8 @@ package dcerpc
 import (
 	"context"
 
-	"github.com/oiweiwei/go-msrpc/midl/uuid"
-	"github.com/oiweiwei/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	"github.com/FalconOpsLLC/go-msrpc/ndr"
 	"github.com/rs/zerolog"
 )
 

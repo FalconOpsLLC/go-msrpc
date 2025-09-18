@@ -6,15 +6,15 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	dcerpc "github.com/oiweiwei/go-msrpc/dcerpc"
-	errors "github.com/oiweiwei/go-msrpc/dcerpc/errors"
-	uuid "github.com/oiweiwei/go-msrpc/midl/uuid"
-	dcom "github.com/oiweiwei/go-msrpc/msrpc/dcom"
-	dcom_client "github.com/oiweiwei/go-msrpc/msrpc/dcom/client"
-	itransactionstream "github.com/oiweiwei/go-msrpc/msrpc/dcom/com/itransactionstream/v0"
-	iremunknown "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown/v0"
-	iremunknown2 "github.com/oiweiwei/go-msrpc/msrpc/dcom/iremunknown2/v0"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	dcerpc "github.com/FalconOpsLLC/go-msrpc/dcerpc"
+	errors "github.com/FalconOpsLLC/go-msrpc/dcerpc/errors"
+	uuid "github.com/FalconOpsLLC/go-msrpc/midl/uuid"
+	dcom "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom"
+	dcom_client "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/client"
+	itransactionstream "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/com/itransactionstream/v0"
+	iremunknown "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown/v0"
+	iremunknown2 "github.com/FalconOpsLLC/go-msrpc/msrpc/dcom/iremunknown2/v0"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 var (

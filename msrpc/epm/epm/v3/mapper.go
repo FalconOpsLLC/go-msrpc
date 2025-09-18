@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/dcerpc"
+	"github.com/FalconOpsLLC/go-msrpc/dcerpc"
 
-	"github.com/oiweiwei/go-msrpc/msrpc/dcetypes"
-	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	"github.com/oiweiwei/go-msrpc/msrpc/well_known"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dcetypes"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	"github.com/FalconOpsLLC/go-msrpc/msrpc/well_known"
 )
 
 func EndpointMapper(ctx context.Context, addr string, opts ...dcerpc.Option) dcerpc.Option {

@@ -5,7 +5,7 @@ import (
 	"encoding/asn1"
 	"fmt"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 type Config struct {

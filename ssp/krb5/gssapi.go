@@ -6,7 +6,7 @@ import (
 
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/flags"
 
-	"github.com/oiweiwei/go-msrpc/ssp/gssapi"
+	"github.com/FalconOpsLLC/go-msrpc/ssp/gssapi"
 )
 
 var (

@@ -3,7 +3,7 @@ package claims
 import (
 	"fmt"
 
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
 )
 
 // Claims function returns the parsed claims set from the ClaimsSetMetadata.

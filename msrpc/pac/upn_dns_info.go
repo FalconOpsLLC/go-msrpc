@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"context"
 
-	dtyp "github.com/oiweiwei/go-msrpc/msrpc/dtyp"
-	ndr "github.com/oiweiwei/go-msrpc/ndr"
-	"github.com/oiweiwei/go-msrpc/text/encoding/utf16le"
+	dtyp "github.com/FalconOpsLLC/go-msrpc/msrpc/dtyp"
+	ndr "github.com/FalconOpsLLC/go-msrpc/ndr"
+	"github.com/FalconOpsLLC/go-msrpc/text/encoding/utf16le"
 )
 
 func (o *UPNDNSInfo) Unmarshal(b []byte) error {
